@@ -1,0 +1,23 @@
+{
+	"name": "hacking-puppet",
+	"version": "0.1.0",
+	"author": "Max Hacking",
+	"license": "GPL-3.0",
+	"summary": "Puppet module for managing the configuration of Puppet as an agent and a master.",
+	"source": "https://github.com/MADhacking/puppet-module-puppet",
+	"project_page": "https://github.com/HackingM",
+	"issues_url": "https://github.com/MADhacking/puppet-module-puppet/issues",
+	"tags": [ "puppetmaster",
+		"puppetagent"
+	],
+	"operatingsystem_support": [{
+			"operatingsystem": "Gentoo"
+		}
+	],
+	"dependencies": [{
+			"name": "puppetlabs/concat",
+			"version_requirement": ">=0.2.0"
+		}
+	],
+	"requirements": []
+}
